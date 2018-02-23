@@ -1,2 +1,2 @@
--name: installa net-tools su centos 7
-yum: name=net-tools state=present
+- name: ensure apache is running
+service: name=httpd state=running enabled=yes
