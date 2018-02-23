@@ -4,4 +4,4 @@
   become_method: su
   tasks:
   - name: Install the ntp service
-    yum: name=ntp state=latest
+    yum: name=ntp
