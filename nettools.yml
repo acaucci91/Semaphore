@@ -1,3 +1,4 @@
+  task:
   - name: Install net-tools
     yum:
       name: net-tools
