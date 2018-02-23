@@ -1,2 +1,5 @@
+- name: New File
+  hosts: 172.16.3.6
+  tasks:
 - name: Create a new file
   file: path=/tmp/prova.txt state=touch
