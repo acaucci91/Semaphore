@@ -1,2 +1,4 @@
-- name: install ifconfig
-- yum: name=ifconfig
+- name: This install ifconfig utility
+  tasks:
+  - name: Install the ifconfig
+    yum: name=ifconfig
