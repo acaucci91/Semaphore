@@ -2,4 +2,4 @@
   hosts: 172.16.3.6
   tasks:
   - name: Install the ifconfig
-    yum: name=ifconfig
+    yum: name=net-tools
