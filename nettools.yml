@@ -1,5 +1,7 @@
 - name: This install ntp client
   hosts: 172.16.3.6
+  become: yes
+  become_method: su
   tasks:
   - name: Install the ntp service
     yum: name=ntp state=latest
