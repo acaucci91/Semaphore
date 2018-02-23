@@ -1,2 +1,2 @@
-- name: ensure apache is running
-service: name=httpd state=running enabled=yes
+- name: install ifconfig
+yum: name=ifconfig
